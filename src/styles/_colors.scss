@@ -1,0 +1,209 @@
+@import "var";
+
+////////////// colors
+//  background
+
+.bg-white {
+  background: $white;
+}
+
+.bg-black {
+  background: $black;
+}
+
+.bg-grey-lighten {
+  background: $grey-lighten;
+}
+
+.bg-grey-light {
+  background: $grey-light;
+}
+
+.bg-grey {
+  background: $grey;
+}
+
+.bg-grey-dark {
+  background: $grey-dark;
+}
+
+.bg-primary-darken {
+  background: $primary-darken-color;
+}
+
+.bg-primary-dark {
+  background: $primary-dark-color;
+}
+
+.bg-primary {
+  background: $primary-color;
+}
+
+.bg-primary-light {
+  background: $primary-light-color !important;
+}
+
+.bg-primary-lighten {
+  background: $primary-lighten-color;
+}
+
+.bg-secondary-darken {
+  background: $secondary-darken-color;
+}
+
+.bg-secondary-dark {
+  background: $secondary-dark-color;
+}
+
+.bg-secondary {
+  background: $secondary-color !important;
+}
+
+.bg-secondary-light {
+  background: $secondary-light-color;
+}
+
+.bg-secondary-lighten {
+  background: $secondary-lighten-color;
+}
+
+.bg-wheat-darken {
+  background: $wheat-darken;
+}
+
+.bg-wheat-dark {
+  background: $wheat-dark;
+}
+
+.bg-wheat {
+  background: $wheat;
+}
+
+.bg-wheat-light {
+  background: $wheat-light;
+}
+
+.bg-wheat-lighten {
+  background: $secondary-lighten-color;
+}
+
+.bg-success-color {
+  background: $success-color;
+}
+.bg-success-color-light{
+  background-color: $success-color-light;
+}
+
+.bg-info-color {
+  background: $info-color;
+}
+
+.bg-warning-color {
+  background: $warning-color;
+}
+
+.bg-error-color {
+  background: $error-color;
+}
+
+//  texts
+
+.text-white {
+  color: $white;
+}
+
+.text-black {
+  color: $black;
+}
+
+.text-grey-lighten {
+  color: $grey-lighten;
+}
+
+.text-grey-light {
+  color: $grey-light;
+}
+
+.text-grey {
+  color: $grey;
+}
+
+.text-grey-dark {
+  color: $grey-dark;
+}
+
+.text-primary-darken {
+  color: $primary-darken-color;
+}
+
+.text-primary-dark {
+  color: $primary-dark-color;
+}
+
+.text-primary {
+  color: $primary-color !important;
+}
+
+.text-primary-light {
+  color: $primary-light-color;
+}
+
+.text-primary-lighten {
+  color: $primary-lighten-color;
+}
+
+.text-secondary-darken {
+  color: $secondary-darken-color;
+}
+
+.text-secondary-dark {
+  color: $secondary-dark-color;
+}
+
+.text-secondary {
+  color: $secondary-color;
+}
+
+.text-secondary-light {
+  color: $secondary-light-color;
+}
+
+.text-secondary-lighten {
+  color: $secondary-lighten-color;
+}
+
+.text-wheat-darken {
+  color: $wheat-darken;
+}
+
+.text-wheat-dark {
+  color: $wheat-dark;
+}
+
+.text-wheat {
+  color: $wheat;
+}
+
+.text-wheat-light {
+  color: $wheat-light;
+}
+
+.text-wheat-lighten {
+  color: $secondary-lighten-color;
+}
+
+.text-success {
+  color: $success-color;
+}
+
+.text-info {
+  color: $info-color;
+}
+
+.text-warning {
+  color: $warning-color;
+}
+
+.text-error {
+  color: $error-color;
+}

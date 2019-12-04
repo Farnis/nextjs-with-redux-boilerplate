@@ -1,0 +1,45 @@
+////////// fonts
+$main-font-family: "iransans";
+$main-font-family-fa: "iransansfanum";
+$font-url: './fonts';
+
+////////// main colors
+  //primary
+$primary-lighten-color: #ADC2D5;
+$primary-light-color: #3A779A;
+$primary-color: #004366;
+$primary-dark-color: #003450;
+$primary-darken-color: #20333F;
+
+//secondary
+$secondary-lighten-color: #FDEAEB;
+$secondary-light-color: #F2665E;
+$secondary-color: #E73339;
+$secondary-dark-color: #B61D22;
+$secondary-darken-color: #981B1E;
+
+
+
+//wheat
+$wheat-lighten: #F6EDE4;
+$wheat-light: #F2E4CE;
+$wheat: #EDE0B6;
+$wheat-dark: #C8BB9C;
+$wheat-darken: #B6A67D;
+
+
+//////////// greyscale
+$black: #231F20;
+$grey-lighten: #EEEEEE;
+$grey-light: #D1D3D4;
+$grey: #808285;
+$grey-dark: #414042;
+$white: #fff;
+
+//////////// informational colors
+$success-color: #43a047;
+$info-color: #1976d2;
+$warning-color: #ffa000;
+$error-color :#d32f2f;
+//$content-color:#9AA1A8;
+$success-color-light:rgba(48, 161, 78, 0.1);

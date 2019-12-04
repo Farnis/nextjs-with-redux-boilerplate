@@ -1,0 +1,57 @@
+@import "_var";
+@import "_fonts";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box !important;
+  font-family: $main-font-family;
+}
+
+a {
+  border: none;
+  text-decoration: none;
+  outline: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: $main-font-family;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: $white !important;
+}
+
+// main {
+//   min-height: 65vh;
+//   margin-top: 121px;
+//   display: flex;
+//   flex-flow: column wrap;
+//   transition: margin-top 250ms;
+// }
+
+.z-index-1 {
+  z-index: 1;
+}
+.z-index-2 {
+  z-index: 2;
+}
+.fa-num,
+.fa-num * {
+  font-family: $main-font-family-fa !important;
+}
+
+.noselect,
+.noselect * {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.mini-radius {
+  border-radius: 6px !important;
+}
