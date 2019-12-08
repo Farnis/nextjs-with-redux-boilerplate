@@ -2,7 +2,7 @@ import React from "react";
 import App from "next/app";
 import withRedux from "next-redux-wrapper";
 import { Provider } from "react-redux";
-import store from "../src/store";
+// import store from "../src/store";
 import { ThemeProvider } from "@material-ui/styles";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import { create } from "jss";
@@ -17,7 +17,7 @@ import theme from "../src/styles/theme";
 // Configure JSS
 const jss = create({ plugins: [...jssPreset().plugins, rtl()] });
 
-const _App = withRedux(store)(
+const _App = withRedux()(
   class _App extends App {
     static async getInitialProps({ Component, ctx }) {
       return {
@@ -45,7 +45,7 @@ const _App = withRedux(store)(
             <ThemeProvider theme={theme}>
               {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
               <CssBaseline />
-              <Provider store={store}>
+              <Provider>
                 {/* <SnackbarProvider maxSnack={3}> */}
                 {/* TODO: Handle error and fix last location: Invariant failed: You should not use <withRouter(LastLocationProvider) /> outside a <Router>*/}
                 {/*<LastLocationProvider>*/}
